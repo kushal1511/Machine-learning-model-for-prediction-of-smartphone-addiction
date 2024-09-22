@@ -1,0 +1,229 @@
+{% extends 'base2.html' %}
+{% block code %}
+<section id="hero">
+    <div class="hero-container">
+    <div class="cg-text">
+<form action="" method="post">
+            {% csrf_token %}
+            
+           
+            
+  
+          <table>
+              <tr>
+                  
+                  
+                 <td>                
+                          <label>Gender :  </label>
+                          <br>
+                          <select name="f2" id="f2"  style="width: 250px; height: 50px;">
+                          <option value="" ><h2>chose Gender</h2></option>
+                          <option value="0"><h2>Male</h2></option>
+                          <option value="1"><h2>Female</h2></option>
+                          <option value="2"><h2>Others</h2></option>
+                 </td>
+                 &nbsp&nbsp
+               
+                 <td>                
+                  <label>Do you use your phone to click pictures of class notes?  </label>
+                  <br>
+                  <select name="f3" id="f3"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+                  
+         </td>
+                 &nbsp&nbsp
+                 <td>                
+                          <label>Do you buy books/access books from your mobile?</label>
+                          <br>
+                  <select name="f4" id="f4"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+                 </td>
+                 &nbsp&nbsp
+                 <td>                
+                  <label>Does your phone's battery last a day?</label>
+                  <br>
+                  <select name="f5" id="f5"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+                  </td>
+                  &nbsp&nbsp
+                  <td>                
+                    <label>When your phone's battery dies out, do you run for the charger?</label>
+                    <br>
+                  <select name="f6" id="f6"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+           </td>
+           &nbsp&nbsp
+           <td>                
+                    <label>Do you worry about losing your cell phone?</label>
+                    <br>
+                  <select name="f7" id="f7"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+           </td>
+                  
+                 <br>
+            
+  
+  
+              </tr>
+              <tr>
+          </table>
+
+
+          <table>
+            <tr>
+                
+                
+               
+               <td>                
+                        <label>Do you take your phone to the bathroom?</label>
+                        <br>
+                  <select name="f8" id="f8"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+               </td>
+               &nbsp&nbsp
+               <td>            
+               <label>Do you use your phone in any social gathering (parties)?</label>
+               <br>
+               <select name="f9" id="f9"  style="width: 250px; height: 50px;">
+               <option value="" ><h2>Select</h2></option>
+               <option value="0"><h2>No</h2></option>
+               <option value="1"><h2>Yes</h2></option>
+            </td>
+             &nbsp&nbsp
+               <td>                
+                        <label>Do you often check your phone without any notification?</label>
+                        <br>
+                  <select name="f10" id="f10"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+               </td>
+               &nbsp&nbsp
+               <td>                
+                <label>Do you check your phone just before going to sleep/just after waking up?</label>
+                <br>
+                  <select name="f11" id="f11"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+                </td>
+
+                <td>                
+                  <label> Do you keep your phone right next to you while sleeping?</label>
+                  <br>
+                  <select name="f12" id="f12"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+         </td>
+         
+         <td>                
+                  <label>Do you check emails, missed calls, texts during class time?</label>
+                  <br>
+                  <select name="f13" id="f13"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+         </td>
+         
+         <td>                
+                  <label>Do you find yourself relying on your phone when things get awkward?</label>
+                  <br>
+                  <select name="f14" id="f14"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+         </td>
+                
+               <br>
+          
+
+
+            </tr>
+            <tr>
+        </table>
+
+
+
+      <table>
+        <tr>
+
+            <td>                
+                  <label>Are you on your phone while watching TV or eating food?</label>
+                  <br>
+                  <select name="f15" id="f15"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+         </td>
+            
+            <td>                
+                    <label>Do you have a panic attack if you leave your phone elsewhere? </label>
+                    <br>
+                  <select name="f16" id="f16"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+           </td>
+           
+           <td>                
+                    <label>You don't mind responding to messages or checking your phone while on date?</label>
+                    <br>
+                    <select name="f17" id="f17"  style="width: 250px; height: 50px;">
+                    <option value="" ><h2>Select</h2></option>
+                    <option value="0"><h2>No</h2></option>
+                    <option value="1"><h2>Yes</h2></option>
+           </td>
+           
+           <td>                
+                    <label>For how long do you use your phone for playing games?</label>
+                    <br>
+                    <select name="f18" id="f18"  style="width: 250px; height: 50px;">
+                    <option value="" ><h2>Select</h2></option>
+                    <option value="0"><h2>No</h2></option>
+                    <option value="1"><h2>Yes</h2></option>
+           </td>
+           
+           <td>                
+                    <label>Can you live a day without phone ? </label>
+                    <br>
+                  <select name="f19" id="f19"  style="width: 250px; height: 50px;">
+                  <option value="" ><h2>Select</h2></option>
+                  <option value="0"><h2>No</h2></option>
+                  <option value="1"><h2>Yes</h2></option>
+           </td>
+           <br>
+      
+
+
+        </tr>
+        <tr>
+    </table>
+   
+                 
+
+                         
+                   
+                  <br>
+              <div class="centered">
+                <br><br>
+              <button type="submit" class="btn btn-primary" style="width: 400px; border-radius: 20%; height:50px;">Submit</button>
+          </form>
+          </div>
+          <h1>{{msg}}</h1>
+    </div>
+    
+  </section><!-- End Hero -->
+{% endblock %}
